@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body,
+button,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #f0f4ff 0%, #a5b6ee 100%);
+  font-family: "Pretendard-Regular";
+}
+
+.container {
+  width: 400px;
+  margin: 72px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container h1 {
+  margin-bottom: 60px;
+}
+
+#clock {
+  width: 400px;
+  height: 360px;
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+  padding: 40px 44px;
+}
+
+#clock h2 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  padding: 8px 0 23px;
+  border-bottom: 1px solid #3d538a;
+  box-shadow: 0 1px 0px 0 #6a7cb6;
+}
+
+#clock .time-txt {
+  margin-top: 33px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #a5b6ee;
+  margin-bottom: 4px;
+}
+
+.time-form input {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(314.28deg, #304577 0%, #4c65a0 83%);
+  border: 1px solid #354971;
+  border-radius: 4px;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.time-form .dot {
+  width: 6px;
+  margin: 0 6px;
+}
+
+.time-form .btn {
+  margin-top: 40px;
+}
+
+.time-form .btn .start-btn,
+.time-form .btn .reset-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.time-form .btn .start-btn {
+  margin-right: 12px;
+}
+
+.time-form .btn .start-btn img,
+.time-form .btn .reset-btn img {
+  width: 112px;
+  height: 40px;
+  vertical-align: top;
+}
